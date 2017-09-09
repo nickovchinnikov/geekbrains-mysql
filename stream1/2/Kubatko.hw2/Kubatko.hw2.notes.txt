@@ -1,0 +1,3 @@
+не удалось победить ошибку:
+
+ERROR 1452: Cannot add or update a child row: a foreign key constraint fails (`geodata`.`#sql-61_47`, CONSTRAINT `_cities_ibfk_2` FOREIGN KEY (`region_id`) REFERENCES `_regions` (`id`))
