@@ -1,0 +1,12 @@
+/*добавление пользователя (в методичке устарело)*/
+
+db.createUser( { user: "admin", pwd: "123456", roles: ["readWrite"] }, { w: "majority" , wtimeout: 5000 })
+
+
+db.users.insert({"name": "Tom", "age": 28, languages: ["english", "spanish"]})
+
+db​.​users​.​find​()
+
+db.users.insert({"name": "Mike", "age": 29, languages: ["english", "russian"], company: "microsoft"})
+db​.​users​.​find​({​ "company"​:​​ "microsoft"​ })
+​
